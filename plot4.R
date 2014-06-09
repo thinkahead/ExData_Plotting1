@@ -23,7 +23,7 @@ with(tbl, {
     lines(DateTime, Sub_metering_2, type="l", col="red")
     lines(DateTime, Sub_metering_3, type="l", col="blue")
     cols = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
-    legend("topright", lty=1, lwd=1, col=c("black","blue","red"), legend=cols, bty="n") # No box around legend
+    legend("topright", lty=1, lwd=1, col=c("black","red","blue"), legend=cols, bty="n") # No box around legend
         
     plot(DateTime, Global_reactive_power, xlab="datetime", ylab="Global_reactive_power", type="l")
 })
